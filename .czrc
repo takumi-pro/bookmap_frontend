@@ -1,14 +1,3 @@
 {
-  "path": "cz-conventional-changelog",
-  "messages": {
-    "type": "コミットの形式を選択してください:\n",
-    "subject": "修正理由を入力してください:\n",
-    "confirmCommit": "コミットを実行してもよろしいですか？:\n"
-  },
-  "skipQuestions": [
-    "scope",
-    "body",
-    "breaking",
-    "footer"
-  ]
+  "path": "cz-conventional-changelog-ja"
 }
