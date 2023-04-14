@@ -1,3 +1,76 @@
 {
-  "path": "cz-conventional-changelog-ja"
+  "path": "cz-emoji",
+  "config": {
+    "cz-emoji": {
+      "subjectMaxLength": 72,
+      "skipQuestions": [
+        "scope",
+        "body",
+        "breaking",
+        "footer"
+      ],
+      "types": [
+        {
+          "emoji": "✨",
+          "name": "feat",
+          "code": "feat: :sparkles:",
+          "description": "機能追加"
+        },
+        {
+          "emoji": "🐛",
+          "name": "fix",
+          "code": "fix: :bug:",
+          "description": "バグの修正"
+        },
+        {
+          "emoji": "📚",
+          "name": "docs",
+          "code": "docs: :books:",
+          "description": "ドキュメントのみの変更"
+        },
+        {
+          "emoji": "🎨",
+          "name": "style",
+          "code": "style: :art:",
+          "description": "コードの動作に影響しない、見た目だけの変更（スペース、フォーマット、欠落の修正、セミコロンなど)"
+        },
+        {
+          "emoji": "♻️",
+          "name": "refactor",
+          "code": "refactor: :recycle:",
+          "description": "バグの修正や機能の追加ではないコードの変更"
+        },
+        {
+          "emoji": "🐎",
+          "name": "perf:",
+          "code": "perf: :horse:",
+          "description": "パフォーマンスを向上させるコードの変更"
+        },
+        {
+          "emoji": "✅",
+          "name": "test: ",
+          "code": "test: :white_check_mark:",
+          "description": "不足しているテストの追加や既存のテストの修正"
+        },
+        {
+          "emoji": "👷‍♂️",
+          "name": "chore",
+          "code": "chore: :construction_worker:",
+          "description": "ビルドプロセスやドキュメント生成などの補助ツールやライブラリの変更"
+        },
+        {
+          "emoji": "🗑",
+          "name": "remove",
+          "code": "remove: :wastebasket:",
+          "description": "コードの削除"
+        },
+        {
+          "emoji": "🚚",
+          "name": "move",
+          "code": "move: :truck:",
+          "description": "リソースの移動や名前の変更"
+        }
+      ]
+    }
+  }
 }

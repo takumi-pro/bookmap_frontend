@@ -5,8 +5,6 @@ import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 const inter = Inter({ subsets: ['latin'] });
 
-const test = 'test';
-
 const testTest = 'test';
 console.log(testTest);
 export default function Home() {
