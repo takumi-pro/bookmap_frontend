@@ -4,9 +4,8 @@ import Image from 'next/image';
 
 import styles from '@/styles/Home.module.css';
 const inter = Inter({ subsets: ['latin'] });
-const test: any = 'test';
-const testTest = 'test';
-console.log(testTest);
+
+const newFunction = () => console.log('This is New Function.');
 export default function Home() {
   return (
     <>
